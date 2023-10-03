@@ -1,0 +1,12 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+#wrapper{
+    /*height as viewport of screen*/
+    height:100vh;
+    /*only page can be scrooled in Y-axis so hide overflow on X-axis*/
+    overflow-x: hidden;
+    overflow-y: visible;
+}
