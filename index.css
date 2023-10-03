@@ -9,4 +9,8 @@
     /*only page can be scrooled in Y-axis so hide overflow on X-axis*/
     overflow-x: hidden;
     overflow-y: visible;
+    background-color: rgba(253, 251, 251, 0.697);
+}
+.container{
+    display:flex;
 }
